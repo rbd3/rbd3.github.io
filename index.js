@@ -22,7 +22,7 @@ const projectInfo = [
     header: 'RBD High School',
     canopy: 'SCHOOL',
     backend: 'Full Stack Dev',
-    year: '2015',
+    year: '2023',
     popupPhoto: 'media/RBD-school-header.png',
     content: 'RBD-School is a high school for Technology in Madagascar. This website is to inform and interact with people about the school.',
     tools: ['HTML', 'CSS', 'JavaScript'],
@@ -39,6 +39,8 @@ const projectInfo = [
     popupPhoto: 'media/Snapshoot Portfolio2.svg',
     content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     tools: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
+    live: 'https://rbd3.github.io/',
+    source: 'https://rbd3.github.io/',
   },
 
   {
@@ -50,6 +52,8 @@ const projectInfo = [
     popupPhoto: 'media/Snapshoot Portfolio3.svg',
     content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     tools: ['HTML', 'CSS', 'JavaScript'],
+    live: 'https://rbd3.github.io/',
+    source: 'https://rbd3.github.io/',
   },
 ];
 
@@ -127,7 +131,7 @@ for (let i = 0; i < showButton.length; i += 1) {
                     <button class="modal-button source">
                     <a href=${projectInfo[i].source}>See source</a>
                       <span>
-                      <img class="svg" src="media/group.svg" alt="Github Icon" />
+                      <img class="svg" src="media/Group.svg" alt="Github Icon" />
                       </span>
                       </button>
                     </div>
