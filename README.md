@@ -1,10 +1,17 @@
+<a name="readme-top"></a>
 
+<div align="center">
+  
+  <h3><b>Narson Portfolio</b></h3>
+
+</div>
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -43,6 +50,10 @@
 - **[Setting up Linters properly]**
 - **[Html and css]**
 - **[Mobile view]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Live Demo <a name="#live-demo"></a>
+[Live Demo Link](https://rbd3.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +129,7 @@ You don't need a deployment from now.
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
+Feel free to check the [issues page](https://github.com/rbd3/Narson-Portfolio/issues).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

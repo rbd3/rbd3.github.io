@@ -6,11 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
 
     <header class="app-header">
         <a href="#" class="logo">Narson</a>
+
+        
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn">&times;</a>
+            <div class="overlay-content">
+                <a id="portfolio" href="#work">Portfolio</a>
+                <a id="about" href="#about">About</a>
+                <a id="contact" href="#contact">Contact</a>
+            </div>
+        </div>
+
         <nav class="ambony">
             <a href="#"><img src="media/Union.svg" alt="humburger" class="humburger"></a>
             <ul class="menu">
@@ -64,106 +77,14 @@
     </section>
 
     <!--work section-->
-
-    <section class="work">
-        <div class="card-container">
-            <img class="sary" src="media/Snapshoo-desktop.svg" alt="Project Snapshoot" />
-            
-            <div class="work-fonony">
-
-            <h2 class="card-tittle">Tonic</h2>
-            <div class="frame3-img">
-                <ul class="project-info">
-                    <li class="fb">CANOPY</li>
-                    <li class="full">Back End Dev</li>
-                    <li class="year">2015</li>
-                </ul>
-            </div>
-            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="languages-list">
-                <li class="html">html</li>
-                <li class="css">css</li>
-                <li class="javascript">javascript</li>
-            </ul>
-            <button type="button" class="buttons">See Project</button>
-            </div>
-        </div>
-    
-        <div class="card-container">
-            <img  class="sary faha2" src="media/Snapshoot Portfolio.svg" alt="Project Snapshoot">
-            
-            <div class="work-fonony">
-            
-            <h2 class="card-tittle">Multi-Post Stories</h2>
-            <div class="frame3-img">
-                <ul class="project-info">
-                    <li class="fb">CANOPY</li>
-                    <li class="full">Back End Dev</li>
-                    <li class="year">2015</li>
-                </ul>
-            </div>
-            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="languages-list">
-                <li class="html">html</li>
-                <li class="css">css</li>
-                <li class="javascript">javascript</li>
-            </ul>
-            <button type="button" class="buttons">See Project</button>
-            </div>
-        </div>
-    
-        <div class="card-container">
-            <img  class="sary" src="media/Snapshoot Portfolio2.svg" alt="Project Snapshoot">
-            
-            <div class="work-fonony">
-            
-            <h2 id="fb-title" class="card-tittle">Facebook 360</h2>
-            <div class="frame3-img">
-                <ul id="fb-info" class="project-info">
-                    <li class="fb">FACEBOOK</li>
-                    <li class="full">Full Stack Dev</li>
-                    <li class="year">2015</li>
-                </ul>
-            </div>
-            <p id="description-fb" class="description">Exploring the future of media in Facebook's first Virtual Reality app; 
-                a place to discover and enjoy 360 photos and videos on Gear VR..</p>
-            <ul id="back-list" class="languages-list">
-                <li class="html">html</li>
-                <li class="ruby">Ruby on rails</li>
-                <li class="css">css</li>
-                <li class="javascript">javascript</li>
-            </ul>
-            <button type="button" class="buttons" id="fd-buttons">See Project</button>
-            </div>
-        </div>
-    
-        <div class="card-container">
-            <img class="sary faha2" src="media/Snapshoot Portfolio3.svg" alt="Project Snapshoot" />
-            
-            <div class="work-fonony">
-
-            <h2 class="card-tittle">Multi-Post Stories</h2>
-            <div class="frame3-img">
-                <ul class="project-info">
-                    <li class="fb">CANOPY</li>
-                    <li class="full">Back End Dev</li>
-                    <li class="year">2015</li>
-                </ul>
-            </div>
-            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="languages-list">
-                <li class="html">html</li>
-                <li class="css">css</li>
-                <li class="javascript">javascript</li>
-            </ul>
-            <button type="button" class="buttons">See Project</button>
-            </div>
-        </div>
+<div class="expandcard"></div>
+    <section id="projects">
+        
     </section>
 
     <!--About me section-->
 
-    <section class="about-me">
+    <section class="about-me" id="#about">
         <div class="about-container">
         <h3 class="about-text">About Myself</h3>
         <p class="summary">
@@ -190,7 +111,6 @@
                 </a>
             </li>
             <li class="angellist"><a href="#">
-                </a>
                 <img src="media/angellist.svg" alt="Angellist" title="Angellist" />
                 </a>
             </li>
@@ -238,7 +158,9 @@
         </div>
     </section>
 
-    <section class="contact-form">
+    <!--CONTACT SECTION-->
+
+    <section class="contact-form" id="#contact">
         <div class="contact-container">
             <h2 class="contact-me">Contact me</h2>
             <p class="contact-text">
@@ -248,7 +170,7 @@
             </p>
         </div>
 
-        <form action="https://formspree.io/f/meqwrnzl" method="post">
+        <form id="form" action="https://formspree.io/f/meqwrnzl" method="post">
             <ul class="contact-list">
                 <li>
                     <input type="text" id="name" name="name" placeholder="Full name" maxlength="30" required />
@@ -263,5 +185,7 @@
             </ul>
         </form>
     </section>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
