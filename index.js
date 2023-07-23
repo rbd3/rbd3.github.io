@@ -12,7 +12,7 @@ const projectInfo = [
     year: '2023',
     popupPhoto: 'media/AjoutMarchands.jpg',
     content: 'a website that boosts your buying power by offering discounted prices and special deals.',
-    tools: ['Django', 'React', 'PostgreSQL', 'HTML', 'CSS'],
+    tools: ['Django', 'React', 'PostgreSQL', 'HTML', 'CSS', 'Javascript'],
     live: 'https://www.eboons.com/',
     source: 'https://github.com/Tafita1339/eboons-backend',
   },
