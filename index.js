@@ -46,7 +46,7 @@ const projectInfo = [
   {
     id: 3,
     header: 'TV-Show episodes',
-    canopy: 'CANOPY',
+    canopy: 'TV-Show',
     backend: 'Full Stack Dev',
     year: '2023',
     popupPhoto: 'media/screenshot TV.png',
