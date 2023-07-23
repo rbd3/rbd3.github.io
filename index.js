@@ -10,7 +10,7 @@ const projectInfo = [
     canopy: 'eBoons',
     backend: 'Back End Dev',
     year: '2023',
-    popupPhoto: 'media/ToDo.png',
+    popupPhoto: 'media/AjoutMarchands.jpg',
     content: 'a website that boosts your buying power by offering discounted prices and special deals.',
     tools: ['Django', 'React', 'PostgreSQL', 'HTML', 'CSS'],
     live: 'https://www.eboons.com/',
