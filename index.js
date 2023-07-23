@@ -10,7 +10,7 @@ const projectInfo = [
     canopy: 'eBoons',
     backend: 'Back End Dev',
     year: '2023',
-    popupPhoto: 'media/AjoutMarchands.jpg',
+    popupPhoto: 'media/screenshot eBoons.png',
     content: 'a website that boosts your buying power by offering discounted prices and special deals.',
     tools: ['Django', 'React', 'PostgreSQL', 'HTML', 'CSS', 'Javascript'],
     live: 'https://www.eboons.com/',
@@ -18,7 +18,7 @@ const projectInfo = [
   },
 
   {
-    id: 0,
+    id: 1,
     header: 'To Do List',
     canopy: 'ToDo',
     backend: 'Front End Dev',
@@ -32,15 +32,15 @@ const projectInfo = [
 
   {
     id: 2,
-    header: 'Facebook 360',
-    canopy: 'FACEBOOK',
+    header: 'BookStore',
+    canopy: 'BookStore',
     backend: 'Full Stack Dev',
-    year: '2015',
-    popupPhoto: 'media/Snapshoot Portfolio2.svg',
-    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    year: '2023',
+    popupPhoto: 'media/BookStore.png',
+    content: 'Book Store, a user-friendly React-based application that enpowers user to effortlessly add and remove books form your collection.Adding a book is as simple as providing the book title and author name.Once you have entered the required information, just press the enter key or click the submit button to add the book store.',
     tools: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
-    live: 'https://rbd3.github.io/',
-    source: 'https://rbd3.github.io/',
+    live: 'https://bookstore-5cb5.onrender.com',
+    source: 'https://github.com/rbd3/bookstore',
   },
 
   {
