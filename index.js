@@ -38,7 +38,7 @@ const projectInfo = [
     year: '2023',
     popupPhoto: 'media/BookStore.png',
     content: 'Book Store, a user-friendly React-based application that enpowers user to effortlessly add and remove books form your collection.Adding a book is as simple as providing the book title and author name.Once you have entered the required information, just press the enter key or click the submit button to add the book store.',
-    tools: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript'],
+    tools: ['HTML', 'React', 'Redux', 'CSS', 'JavaScript'],
     live: 'https://bookstore-5cb5.onrender.com',
     source: 'https://github.com/rbd3/bookstore',
   },
