@@ -6,6 +6,19 @@ const showButton = document.getElementsByClassName('popBtn');
 const projectInfo = [
   {
     id: 0,
+    header: 'eBoons',
+    canopy: 'eBoons',
+    backend: 'Back End Dev',
+    year: '2023',
+    popupPhoto: 'media/ToDo.png',
+    content: 'a website that boosts your buying power by offering discounted prices and special deals.',
+    tools: ['Django', 'React', 'PostgreSQL', 'HTML', 'CSS'],
+    live: 'https://www.eboons.com/',
+    source: 'https://github.com/Tafita1339/eboons-backend',
+  },
+
+  {
+    id: 0,
     header: 'To Do List',
     canopy: 'ToDo',
     backend: 'Front End Dev',
@@ -15,19 +28,6 @@ const projectInfo = [
     tools: ['HTML', 'CSS', 'JavaScript'],
     live: 'https://rbd3.github.io/To-Do-Deploy/',
     source: 'https://github.com/rbd3/ToDo-List-Narson',
-  },
-
-  {
-    id: 1,
-    header: 'RBD High School',
-    canopy: 'SCHOOL',
-    backend: 'Full Stack Dev',
-    year: '2023',
-    popupPhoto: 'media/RBD-school-header.png',
-    content: 'RBD-School is a high school for Technology in Madagascar. This website is to inform and interact with people about the school.',
-    tools: ['HTML', 'CSS', 'JavaScript'],
-    live: 'https://rbd3.github.io/rbd3.github.io-RBD-School/',
-    source: 'https://github.com/rbd3/RBD-High-School',
   },
 
   {
