@@ -249,7 +249,7 @@ small {
 
 #projects {
   width: 100%;
-  margin: 0%;
+  margin-left: 3%;
   display: grid;
   grid-template-rows: repeat(3, auto);
   justify-content: space-between;
@@ -542,4 +542,8 @@ small {
     margin-left: -4%;
     background-color: #dfe1e5;
   }
+}
+
+#projects {
+  margin-left: 1%;
 }
