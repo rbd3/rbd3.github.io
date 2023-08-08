@@ -55,6 +55,32 @@ const projectInfo = [
     live: 'https://tv-show-episodes.onrender.com',
     source: 'https://github.com/rbd3/JavascriptCapstone',
   },
+
+  {
+    id: 4,
+    header: 'Math Magicians',
+    canopy: 'Calculator',
+    backend: 'Front End Dev',
+    year: '2023',
+    popupPhoto: 'media/math-magicians.png',
+    content: 'Calculator Web App: A user-friendly web-based calculator that performs basic arithmetic operations. Built with HTML, CSS, and React.',
+    tools: ['HTML', 'CSS', 'React'],
+    live: 'https://math-magicians-zopr.onrender.com',
+    source: 'https://github.com/rbd3/math-magicians',
+  },
+
+  {
+    id: 5,
+    header: 'Space Travelers Hub',
+    canopy: 'Hub',
+    backend: 'Front End Dev',
+    year: '2023',
+    popupPhoto: 'media/space-travelers.png',
+    content: 'We will be working with the real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    tools: ['HTML', 'CSS', 'React', 'Bootstrap'],
+    live: 'https://space-travelers-hub-three.vercel.app/',
+    source: 'https://github.com/Abdulwhbhussain/Space-Travelers-Hub',
+  },
 ];
 
 for (let i = 0; i < projectInfo.length; i += 1) {
