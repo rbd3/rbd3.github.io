@@ -14,7 +14,6 @@ const projectInfo = [
     content: 'a website that boosts your buying power by offering discounted prices and special deals.',
     tools: ['Docker', 'Django', 'React', 'PostgreSQL', 'HTML', 'CSS', 'Javascript'],
     live: 'https://www.eboons.com/',
-    source: 'https://github.com/Tafita1339/eboons-backend',
   },
 
   {
@@ -49,8 +48,8 @@ const projectInfo = [
     canopy: 'TV-Show',
     backend: 'Front End Dev',
     year: '2023',
-    popupPhoto: 'media/screenshot-TV.png',
-    content: 'The TV-ShoW Episodes website is a platform that provides information about various TV-serie. The website utilizes an API to fetch data about popular TV-shows episodes : season number or summary about it for example.',
+    popupPhoto: 'media/TV.png',
+    content: 'The TV-ShoW Episodes website is a platform that provides information about various TV-serie. The website utilizes an API to fetch data about popular TV-shows episodes : season number or summary about it for example. You can add a comment',
     tools: ['HTML', 'CSS', 'JavaScript'],
     live: 'https://tv-show-episodes.onrender.com',
     source: 'https://github.com/rbd3/JavascriptCapstone',
