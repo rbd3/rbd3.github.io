@@ -81,6 +81,20 @@ const projectInfo = [
     live: 'https://space-travelers-hub-three.vercel.app/',
     source: 'https://github.com/Abdulwhbhussain/Space-Travelers-Hub',
   },
+
+  
+  {
+    id: 6,
+    header: 'Budget App',
+    canopy: 'Budget App',
+    backend: 'Full Stack Dev',
+    year: '2023',
+    popupPhoto: 'media/Budget-App.png',
+    content: 'We will be working with the real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    tools: ['Ruby on Rails', 'PostgreSQL','HTML', 'CSS'],
+    live: 'https://budgetuser.onrender.com',
+    source: 'https://github.com/Abdulwhbhussain/Budget-App',
+  },
 ];
 
 for (let i = 0; i < projectInfo.length; i += 1) {
