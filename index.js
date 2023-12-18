@@ -89,7 +89,7 @@ const projectInfo = [
     canopy: 'Budget App',
     backend: 'Full Stack Dev',
     year: '2023',
-    popupPhoto: 'media/Budget-App.png',
+    popupPhoto: 'media/Budget-App.PNG',
     content: 'This Ruby on Rails project is about a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     tools: ['Ruby on Rails', 'PostgreSQL','HTML', 'CSS'],
     live: 'https://budgetuser.onrender.com',
