@@ -1316,7 +1316,9 @@ ul {
   .languages-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-left: -20rem;
+    
   }
 
   .languages {
@@ -1333,12 +1335,12 @@ ul {
 
   ul.languages-list2 li {
     margin-right: -2rem;
+    width: 33.33%;
   }
 
   .javascript2 {
     display: flex;
     flex-direction: column;
-    width: 50%;
     height: 8rem;
   }
 
@@ -1357,7 +1359,6 @@ ul {
     display: flex;
     flex-direction: column;
     margin-top: -0.1rem;
-    width: 50%;
     height: 8rem;
   }
 
@@ -1376,7 +1377,6 @@ ul {
     display: flex;
     flex-direction: column;
     margin-top: 0.021rem;
-    width: 50%;
     height: 8rem;
   }
 
@@ -1389,6 +1389,24 @@ ul {
     align-self: center;
     margin-top: 5.5rem;
     margin-left: -3.4rem;
+  }
+
+  .ruby {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.021rem;
+    height: 8rem;
+  }
+
+  .ruby-logo {
+    height: 4.5rem;
+    width: 4.4rem;
+  }
+
+  .ruby-text {
+    align-self: center;
+    margin-top: 5.5rem;
+    margin-left: 0.5%;
   }
 
   .frameworks-text {
