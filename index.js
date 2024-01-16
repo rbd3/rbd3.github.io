@@ -96,7 +96,7 @@ const projectInfo = [
   },
 ];
 
-for (let i = 0; i < projectInfo.length; i += 1) {
+for (let i = projectInfo.length - 1; i >= 0; i--) {
   const card = document.createElement('div'); // to generate a new card for each project
   card.classList.add('card-body');
   let toolsHtml = '';
