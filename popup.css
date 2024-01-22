@@ -326,6 +326,24 @@ small {
   object-fit: cover;
   margin-top: 0;
   border-radius: 3%;
+  transform-origin: center bottom; /* Set the transform origin to the center bottom */
+}
+
+.image-img:hover {
+  transform: scale(1.2);
+  animation-name: card-body;
+  
+}
+
+@keyframes card-body {
+  from {
+    background-color: #e5e9f2;
+  }
+
+  to {
+    background-color: #22e210;
+  }
+  
 }
 
 .see-project {

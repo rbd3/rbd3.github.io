@@ -40,7 +40,7 @@ header {
 
 @keyframes rotateLogo {
   to {
-    transform: rotate(360deg); /* Final rotation */
+    transform: rotate(360deg);
   }
 }
 

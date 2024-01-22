@@ -181,6 +181,7 @@ for (let  i = showButton.length - 1; i >= 0; i--) {
           </div>
           </section>
         `;
+
     body.appendChild(popUp);
   });
 }
