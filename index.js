@@ -92,7 +92,7 @@ const projectInfo = [
     content: 'This Ruby on Rails project is about a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     tools: ['Ruby on Rails', 'PostgreSQL','HTML', 'CSS'],
     live: 'https://budgetuser.onrender.com',
-    source: 'https://github.com/Abdulwhbhussain/Budget-App',
+    source: 'https://github.com/rbd3/Budget-App',
   },
 ];
 
@@ -129,7 +129,7 @@ for (let i = projectInfo.length - 1; i >= 0; i--) {
   projects.appendChild(card);
 }
 
-for (let i = 0; i < showButton.length; i += 1) {
+for (let  i = showButton.length - 1; i >= 0; i--) {
   showButton[i].addEventListener('click', () => {
     body.style.display = 'block';
     document.body.scrollTop = 0;
