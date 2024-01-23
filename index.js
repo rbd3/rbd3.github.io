@@ -96,7 +96,7 @@ const projectInfo = [
   },
 ];
 
-for (let i = projectInfo.length - 1; i >= 0; i--) {
+for (let i = 0; i < projectInfo.length; i+= 1) {
   const card = document.createElement('div'); // to generate a new card for each project
   card.classList.add('card-body');
   let toolsHtml = '';
@@ -129,7 +129,7 @@ for (let i = projectInfo.length - 1; i >= 0; i--) {
   projects.appendChild(card);
 }
 
-for (let  i = showButton.length - 1; i >= 0; i--) {
+for (let i = 0; i < showButton.length; i+= 1) {
   showButton[i].addEventListener('click', () => {
     body.style.display = 'block';
     document.body.scrollTop = 0;
