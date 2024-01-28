@@ -513,10 +513,9 @@ ul.languages-list li {
   align-items: center;
   border-top-right-radius: 60px;
   width: 95%;
-  height: 230vh;
+  height: auto;
   background: #fff;
   gap: 12px;
-  margin: 96px 6px 6px 6px;
   margin-top: 10%;
 }
 
@@ -547,6 +546,7 @@ ul.languages-list li {
   flex: none;
   flex-grow: 0;
   color: #344563;
+  margin-bottom: 30%;
 }
 
 .connection2 {
@@ -555,15 +555,13 @@ ul.languages-list li {
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   margin-left: 0.1rem;
   margin-right: 109px;
-  padding-top: 1.5rem;
-  margin-top: -20px;
+  margin-top: 0;
   line-height: 24px;
   flex-grow: 0;
-  overflow-x: hidden;
   color: #7f8cff;
 }
 
