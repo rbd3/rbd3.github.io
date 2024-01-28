@@ -53,7 +53,7 @@ const projectInfo = [
     source: 'https://github.com/rbd3/JavascriptCapstone',
   },
   {
-    id: 4,
+    id: 4,  
     header: 'BookStore',
     canopy: 'BookStore',
     backend: 'Front End Dev',
