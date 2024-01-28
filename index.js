@@ -100,7 +100,7 @@ for (let i = 0; i < projectInfo.length; i+= 1) {
 
   card.innerHTML = `
     <div class="card-img">
-      <img src="${projectInfo[i].popupPhoto}" width="100%" />
+      <img class="hvr-bounce-in" src="${projectInfo[i].popupPhoto}" width="100%" />
     </div>
     <div>
       <h2 class="card-header">${projectInfo[i].header}</h2>
