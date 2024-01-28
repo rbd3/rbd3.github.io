@@ -146,6 +146,20 @@ header {
   order: 0;
 }
 
+.narson-software {
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;
+  
+  color: #ff7f50; /* Coral/Orange */
+
+  margin-top: -4%;
+  margin-left: 6%;
+  
+}
+
 .detail {
   font-size: 16px;
   font-weight: 400;
