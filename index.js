@@ -4,6 +4,19 @@ const popUp = document.createElement('section');
 const showButton = document.getElementsByClassName('popBtn');
 
 const projectInfo = [  
+
+  {
+    id: 6,
+    header: 'eBoons',
+    canopy: 'eBoons',
+    backend: 'Full Stack Dev',
+    year: '2023',
+    popupPhoto: 'media/eBoons.png',
+    content: 'a website that boosts your buying power by offering discounted prices and special deals.',
+    tools: ['Docker', 'Django', 'React', 'PostgreSQL', 'HTML', 'CSS', 'Javascript'],
+    live: 'https://www.eboons.ch/',
+  },
+  
   {
     id: 0,
     header: 'Budget App',
@@ -65,17 +78,7 @@ const projectInfo = [
     source: 'https://github.com/rbd3/bookstore',
   },
 
-  {
-    id: 6,
-    header: 'eBoons',
-    canopy: 'eBoons',
-    backend: 'Full Stack Dev',
-    year: '2023',
-    popupPhoto: 'media/eBoons.png',
-    content: 'a website that boosts your buying power by offering discounted prices and special deals.',
-    tools: ['Docker', 'Django', 'React', 'PostgreSQL', 'HTML', 'CSS', 'Javascript'],
-    live: 'https://www.eboons.com/',
-  },
+
   {
     id: 5,
     header: 'To Do List',
