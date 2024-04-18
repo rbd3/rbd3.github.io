@@ -14,9 +14,9 @@ const projectInfo = [
     popupPhoto: 'media/eBoons.png',
     content: 'a website that boosts your buying power by offering discounted prices and special deals.',
     tools: ['Docker', 'Django', 'React', 'PostgreSQL', 'HTML', 'CSS', 'Javascript'],
-    live: 'https://www.eboons.ch/',
+    live: 'https://www.eboons.ch',
   },
-  
+
   {
     id: 0,
     header: 'Budget App',
