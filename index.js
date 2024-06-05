@@ -17,6 +17,20 @@ const projectInfo = [
     live: 'https://www.eboons.ch',
   },
 
+
+  {
+    id: 0,
+    header: '',
+    canopy: 'RBD School',
+    backend: 'Full Stack Dev',
+    year: '2023',
+    popupPhoto: 'media/school2.png',
+    content: 'This Ruby on Rails  with React project is about  a high school in Madagascar based on three subjects : computer science, english as main language, and chess game.Whether you are a parent or student this school will help you or your children to be a future inrternational worker in the Technologie areas..',
+    tools: ['Ruby on Rails', 'PostgreSQL', 'React', 'Javascript', 'HTML', 'CSS', 'Bootstrap'],
+    live: 'https://school-react.onrender.com/',
+    source: 'https://github.com/rbd3/school-react',
+  },
+
   {
     id: 0,
     header: 'Budget App',
