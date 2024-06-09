@@ -28,7 +28,7 @@ const projectInfo = [
     content: 'This Ruby on Rails  with React project is about  a high school in Madagascar based on three subjects : computer science, english as main language, and chess game.Whether you are a parent or student this school will help you or your children to be a future inrternational worker in the Technologie areas..',
     tools: ['Ruby on Rails', 'PostgreSQL', 'React', 'Javascript', 'HTML', 'CSS', 'Bootstrap'],
     live: 'https://school-react.onrender.com/',
-    source: 'https://github.com/rbd3/school-react',
+    source: 'https://github.com/rbd3/RBD3School-2.0',
   },
 
   {
