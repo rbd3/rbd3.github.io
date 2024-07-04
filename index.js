@@ -80,6 +80,18 @@ const projectInfo = [
     source: 'https://github.com/rbd3/JavascriptCapstone',
   },
   {
+    id: 3,
+    header: 'TV-Series App',
+    canopy: 'TV-Series',
+    backend: 'Front End Dev',
+    year: '2024',
+    popupPhoto: 'media/tv-series.png',
+    content: 'The TV-Series App is a platform that provides information about various TV-serie. The website utilizes an API to fetch data about popular TV-shows : season number or summary about it for example.',
+    tools: ['JavaScript', 'React', 'Redux', 'HTML', 'CSS'],
+    live: 'https://tv-show-metrics.onrender.com/',
+    source: 'https://github.com/rbd3/metrics-webapp',
+  },
+  {
     id: 4,  
     header: 'BookStore',
     canopy: 'BookStore',
